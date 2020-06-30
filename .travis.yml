@@ -52,3 +52,6 @@ matrix:
   - rvm: jruby-head
     gemfile: gemfiles/gemfile-2-jruby
     env: SKIP_ADAPTERS=oj,yajl,jr_jackson,nsjsonserialization
+  - rvm: truffleruby-head
+    gemfile: gemfiles/gemfile-2-3
+    env: SKIP_ADAPTERS=gson,jr_jackson,nsjsonserialization
